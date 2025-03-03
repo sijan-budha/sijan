@@ -1038,7 +1038,36 @@ section,
   text-shadow:  1px 0px 3px rgba(0, 0, 0, 0.553);
 }
 
-.contact .content .lead {
+
+/* Ensure image is floated to the right */
+.contact-image {
+  display: flex;
+  justify-content: flex-end; /* Push image to the right */
+  align-items: center;
+}
+
+.contact-image img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.463);
+  transition: 0.5s;
+}
+
+.contact-image img:hover {
+  background: var(--accent-color);
+  color: var(--background-color);
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.2);
+}
+
+/* If using Float */
+.contact-image img {
+  float: right;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.contact-image .content .lead {
   color: color-mix(in srgb, var(--default-color), transparent 25%);
 }
 
