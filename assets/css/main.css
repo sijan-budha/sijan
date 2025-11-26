@@ -750,8 +750,8 @@ section,
 }
 
 .hero .hero-image .shape-1 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
   top: -20px;
   right: -20px;
@@ -1047,7 +1047,7 @@ section,
 }
 
 .contact-image img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.463);
   transition: 0.5s;
@@ -1062,7 +1062,7 @@ section,
 /* If using Float */
 .contact-image img {
   float: right;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
